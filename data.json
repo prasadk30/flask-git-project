@@ -1,0 +1,7 @@
+{
+  "name": "Prasad",
+  "course": "Git and GitHub",
+  "message": "Updated JSON from the Prasad_new branch",
+  "version": 2,
+  "topics": ["branching", "merging", "conflicts"]
+}

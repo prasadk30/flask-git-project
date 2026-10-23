@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do Page</title>
+</head>
+<body>
+  <h1>To-Do Page</h1>
+  <form action="/submittodoitem" method="POST">
+    <p>
+      <label>Item Name:</label><br>
+      <input type="text" name="itemName" required>
+    </p>
+    <p>
+      <label>Item Description:</label><br>
+      <textarea name="itemDescription" required></textarea>
+    </p>
+    <p>
+      <label>Item ID:</label><br>
+      <input type="text" name="itemId">
+    </p>
+    <p>
+      <label>Item UUID:</label><br>
+      <input type="text" name="itemUUID">
+    </p>
+    <p>
+      <label>Item Hash:</label><br>
+      <input type="text" name="itemHash">
+    </p>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
